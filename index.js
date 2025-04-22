@@ -82,3 +82,7 @@ app.post('/segunda-via', async (req, res) => {
 app.listen(3000, () => {
   console.log('Servidor rodando na porta 3000');
 });
+git add .
+git commit -m "Adiciona endpoint /webhook para integração com ASAAS"
+git push origin main
+
